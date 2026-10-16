@@ -32,13 +32,14 @@
 </section>
 
 <section class="container introduction" id="about" aria-labelledby="about-title">
-	<div><p class="eyebrow">About Safety Spill</p><h2 id="about-title">You’ve tried the rest.</h2></div>
-	<div><p class="lead">Now put Safety Spill and our Tuff Trays to the test.</p><p>Based in Edmonton, Alberta, Safety Spill Inc. is home to the Tuff Tray and other engineered plastic products for the service and workover rig industry.</p><a class="text-link" href="#contact">Talk to us <span aria-hidden="true">↗</span></a></div>
+	<h2 id="about-title">About Safety Spill</h2>
+	<p><strong>You’ve tried the rest.</strong> Now put Safety Spill and our Tuff Trays to the test.</p>
+	<p>Based in Edmonton, Alberta, Safety Spill Inc. is home to the Tuff Tray and other engineered plastic products for the service and workover rig industry. <a href="#contact">Contact us</a> for product enquiries.</p>
 </section>
 
 <section class="products-section" id="products" aria-labelledby="products-title">
 	<div class="container products-grid">
-		<div><p class="eyebrow">Our products</p><h2 id="products-title">Tuff Tray &amp;<br />engineered plastics.</h2><p>Browse our product brochures for specifications, then get in touch for availability and enquiries.</p></div>
+		<div><h2 id="products-title">Tuff Tray &amp; Engineered Plastic Products</h2><p>Browse our product brochures for specifications, then get in touch for availability and enquiries.</p></div>
 		<div class="product-list">
 			{#each products as product}
 				<a href={asset(product.file)} class="product-link"><span><strong>{product.name}</strong><small>{product.code}</small></span><span class="pdf-label">PDF <span aria-hidden="true">↗</span></span></a>
@@ -48,7 +49,7 @@
 </section>
 
 <section class="container contact-section" id="contact" aria-labelledby="contact-title">
-	<p class="eyebrow">Let’s talk</p><h2 id="contact-title">Contact Safety Spill.</h2>
+	<h2 id="contact-title">Contact Safety Spill</h2>
 	<div class="contact-grid">
 		<ContactForm />
 		<div class="contact-office"><h3>Safety Spill Inc.</h3><address>Edmonton, Alberta</address><p><span class="detail-label">Office</span><a href="tel:+17804368181">780 436 8181</a></p><p><span class="detail-label">Email</span><a href="mailto:greg@safetyspill.com">greg@safetyspill.com</a></p></div>

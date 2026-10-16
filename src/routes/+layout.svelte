@@ -6,6 +6,7 @@
 </script>
 
 <a class="skip-link" href="#main">Skip to content</a>
+<div class="header-wrap">
 <header class="site-header container">
 	<a class="brand" href={resolve('/')} aria-label="Safety Spill home"><img src={asset('assets/safety-spill-logo.svg')} alt="Safety Spill" width="390" height="159" /></a>
 	<nav aria-label="Main navigation">
@@ -15,6 +16,7 @@
 		<a href={`${resolve('/')}#contact`}>Contact Us</a>
 	</nav>
 </header>
+</div>
 <main id="main" tabindex="-1">{@render children()}</main>
 <footer class="site-footer">
 	<div class="container footer-main">
