@@ -22,11 +22,10 @@
 	</div>
 </section>
 
-<section class="container introduction" id="about" aria-labelledby="about-title">
-	<h2 id="about-title">About Safety Spill</h2>
-	<div>
-		<p class="lead"><strong>You’ve tried the rest.</strong> Now put Safety Spill and our Tuff Trays to the test.</p>
-		<p>Based in Edmonton, Alberta, Safety Spill Inc. is home to the Tuff Tray and other engineered plastic products for the service and workover rig industry.</p>
+<section class="container introduction" id="about" aria-label="About Safety Spill">
+	<div class="introduction-content">
+		<p class="intro-statement">You’ve tried the rest. Now put Safety Spill and our Tuff Trays to the test.</p>
+		<p class="intro-copy">Based in Edmonton, Alberta, Safety Spill Inc. is home to the Tuff Tray and other engineered plastic products for the service and workover rig industry.</p>
 		<a class="text-link" href={resolve('/about-us')}>More about Safety Spill →</a>
 	</div>
 </section>
