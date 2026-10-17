@@ -13,6 +13,11 @@
 </script>
 
 <a class="skip-link" href="#main">Skip to content</a>
+<div class="utility-bar">
+	<div class="container utility-bar-content">
+		<a href="tel:+17804368181" aria-label="Call Safety Spill at 780 436 8181"><span aria-hidden="true">🇨🇦</span> 780 436 8181</a>
+	</div>
+</div>
 <div class="header-wrap">
 <header class="site-header container">
 	<a class="brand" href={resolve('/')} aria-label="Safety Spill home"><img src={asset('assets/safety-spill-logo.svg')} alt="Safety Spill" width="390" height="159" /></a>

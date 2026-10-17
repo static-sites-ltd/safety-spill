@@ -14,8 +14,8 @@
 	<div class="container hero-grid">
 		<div class="hero-copy">
 			<p class="eyebrow">Safety Spill Inc.</p>
-			<h1 id="hero-title">Home of the<br /><em>Tuff Tray.</em></h1>
-			<p class="hero-summary">Engineered plastic products for service and workover rigs.</p>
+			<h1 id="hero-title">Home of the<br /><em>Tuff Tray.</em><sup class="trademark" aria-label="trademark">™</sup></h1>
+			<p class="hero-summary">Proudly designed and manufactured end-to-end in Canada.</p>
 			<a class="button" href={resolve('/products')}>Explore our products <span aria-hidden="true">↗</span></a>
 		</div>
 		<Carousel {slides} />
