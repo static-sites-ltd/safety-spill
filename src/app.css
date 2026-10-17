@@ -95,9 +95,9 @@ section[id] { scroll-margin-top: 2rem; }
 .inner-page article > p { max-width: 58rem; }
 .inner-page article > h2 { margin-top: 2rem; }
 .page-contact { border-top: 1px solid var(--line); margin-top: 2.5rem; padding-top: 2rem; }
-.inner-page h1:has(+ .catalogue-layout) { margin-bottom: 1rem; }
-.catalogue-layout { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 2rem; align-items: start; margin-top: 1rem; }
+.catalogue-layout { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 2rem; align-items: start; }
 .product-index { position: sticky; top: 1.5rem; padding-right: 1.25rem; border-right: 1px solid var(--line); }
+.inner-page .product-index h1 { font-size: clamp(2rem, 3.5vw, 2.75rem); margin-bottom: 1rem; }
 .product-index ul { list-style: none; padding: 0; margin: 0; }
 .product-index li + li { margin-top: 0.8rem; }
 .product-index a { display: block; font-size: 0.9rem; text-decoration: none; line-height: 1.4; }
